@@ -65,9 +65,29 @@ export const faqs = [
 // Add this to your existing data file
 export const teamMembers = [
 	{
-		name: "John Doe",
-		role: "CEO & Founder",
-		image: "https://avatar.vercel.sh/john",
+		name: "Gaurav",
+		role: "Founder",
+		image: "/team/gaurav.png",
+		socialLinks: {
+			twitter: "https://x.com/GauravGangwar51",
+			linkedin: "https://www.linkedin.com/in/gauravgangwarweb/",
+			github: "https://github.com/gauravgangwarweb",
+		},
+	},
+	{
+		name: "Shivansh",
+		role: "Co-Founder",
+		image: "/team/shivansh.png",
+		socialLinks: {
+			twitter: "https://twitter.com/jane",
+			linkedin: "https://linkedin.com/in/",
+			github: "https://github.com/jane",
+		},
+	},
+	{
+		name: "Jitendra",
+		role: "Co-Founder",
+		image: "/team/jitendra.png",
 		socialLinks: {
 			twitter: "https://twitter.com/john",
 			linkedin: "https://linkedin.com/in/john",
@@ -75,9 +95,9 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: "Jane Smith",
+		name: "Shriansh",
 		role: "CTO",
-		image: "https://avatar.vercel.sh/jane",
+		image: "/team/shriansh.png",
 		socialLinks: {
 			twitter: "https://twitter.com/jane",
 			linkedin: "https://linkedin.com/in/jane",
@@ -85,29 +105,9 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: "John Doe",
-		role: "CEO & Founder",
-		image: "https://avatar.vercel.sh/john",
-		socialLinks: {
-			twitter: "https://twitter.com/john",
-			linkedin: "https://linkedin.com/in/john",
-			github: "https://github.com/john",
-		},
-	},
-	{
-		name: "Jane Smith",
-		role: "CTO",
-		image: "https://avatar.vercel.sh/jane",
-		socialLinks: {
-			twitter: "https://twitter.com/jane",
-			linkedin: "https://linkedin.com/in/jane",
-			github: "https://github.com/jane",
-		},
-	},
-	{
-		name: "John Doe",
-		role: "CEO & Founder",
-		image: "https://avatar.vercel.sh/john",
+		name: "Anubhav",
+		role: "Digital Marketer",
+		image: "/team/anubhav.png",
 		socialLinks: {
 			twitter: "https://twitter.com/john",
 			linkedin: "https://linkedin.com/in/john",
@@ -129,39 +129,39 @@ export const teamMembers = [
 
 export const reviews = [
 	{
-		name: "Jack",
-		username: "@jack",
-		body: "I've never seen anything like this before. It's amazing. I love it.",
-		img: "https://avatar.vercel.sh/jack",
+		name: "Mike Willen",
+		username: "@winterborn",
+		body: "Excellent programing and UI design!",
+		img: "/testimonials/Mike-Willen.webp",
 	},
 	{
-		name: "Jill",
-		username: "@jill",
-		body: "I don't know what to say. I'm speechless. This is amazing.",
-		img: "https://avatar.vercel.sh/jill",
+		name: "Michael",
+		username: "@pottsy86",
+		body: "Good workers and delivered the project as required.",
+		img: "/testimonials/michael.webp",
 	},
 	{
-		name: "John",
-		username: "@john",
-		body: "I'm at a loss for words. This is amazing. I love it.",
+		name: "Daniel Polak",
+		username: "@polskyih",
+		body: "I recently worked with CodeKrafter on Fiverr, and I couldn’t be more satisfied.",
 		img: "https://avatar.vercel.sh/john",
 	},
 	{
-		name: "Jane",
-		username: "@jane",
-		body: "I'm at a loss for words. This is amazing. I love it.",
-		img: "https://avatar.vercel.sh/jane",
+		name: "Paul",
+		username: "@hadiirandoost",
+		body: "Professional service. Fast delivery.",
+		img: "/testimonials/hadiirandoost.webp",
 	},
 	{
-		name: "Jenny",
-		username: "@jenny",
-		body: "I'm at a loss for words. This is amazing. I love it.",
+		name: "Patrickh",
+		username: "@patrickh56",
+		body: "Great to work with!",
 		img: "https://avatar.vercel.sh/jenny",
 	},
 	{
-		name: "James",
-		username: "@james",
-		body: "I'm at a loss for words. This is amazing. I love it.",
-		img: "https://avatar.vercel.sh/james",
+		name: "Tristang",
+		username: "@godaltristan",
+		body: "Very very good work, I recommend without hesitation.",
+		img: "/testimonials/tristang.webp",
 	},
 ];
