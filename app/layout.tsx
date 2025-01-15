@@ -18,7 +18,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en' className="dark" data-theme='dark'>
+		<html lang='en' className='dark' data-theme='dark'>
 			<body
 				className={`${font.className} antialiased  bg-gray-100  transition-all  duration-200 dark:bg-[#10100f] relative dark:text-white text-black`}
 			>

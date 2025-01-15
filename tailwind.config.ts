@@ -55,8 +55,19 @@ export default {
 				marquee: "marquee var(--duration) linear infinite",
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
+				text: "text 5s ease infinite",
 			},
 			keyframes: {
+				text: {
+					"0%, 100%": {
+						"background-size": "200% 200%",
+						"background-position": "left center",
+					},
+					"50%": {
+						"background-size": "200% 200%",
+						"background-position": "right center",
+					},
+				},
 				marquee: {
 					from: {
 						transform: "translateX(0)",

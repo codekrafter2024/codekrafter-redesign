@@ -4,7 +4,7 @@ import { HERO_CONTENT } from "@/constants/data";
 const parseHtmlString = (text: string, className: string): ReactNode => {
 	return text.split(/(<span>.*?<\/span>|<br\/>)/g).map((part, index) => {
 		if (part.startsWith("<span>") && part.endsWith("</span>")) {
-			const content = part.replace(/<\/?span>/g, '');
+			const content = part.replace(/<\/?span>/g, "");
 			return (
 				<span key={index} className={className}>
 					{content}

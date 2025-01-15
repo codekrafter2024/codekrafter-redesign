@@ -5,19 +5,17 @@ import React from "react";
 const Logo = () => {
 	return (
 		<div className=' mx-auto flex justify-center   flex-1 lg:flex-none  '>
-			<Link className='flex items-center' href='/'>
+			<Link className='flex items-center p-0' href='/'>
 				<Image
 					alt='Logo'
-					loading='lazy'
-					width='40'
-					height='40'
-					decoding='async'
-					data-nimg='1'
-					className='mr-2'
-					src='/logo.png'
+					width={50}
+					height={50}
+					className='mr-2 '
+					src='/code-logo.png'
+					priority
 				/>
-				<h2 className='font-extrabold  text-center    cursor-pointer text-[24px] leading-[30.24px] md:mt-1 text-black dark:text-white '>
-					Company
+				<h2 className='font-extrabold text-center  cursor-pointer text-[24px] leading-[30.24px] dark:text-[#38bdf8]'>
+					CodeKrafter
 				</h2>
 			</Link>
 		</div>
