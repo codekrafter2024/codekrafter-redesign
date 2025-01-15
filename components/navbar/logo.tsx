@@ -14,7 +14,7 @@ const Logo = () => {
 					decoding='async'
 					data-nimg='1'
 					className='mr-2'
-					src='/logo.png'
+					src='/code-logo.png'
 				/>
 				<h2 className='font-extrabold  text-center    cursor-pointer text-[24px] leading-[30.24px] md:mt-1 text-black dark:text-white '>
 					Company
