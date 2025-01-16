@@ -7,6 +7,7 @@ import { Testimonials } from "@/components/testimonials";
 // import { FAQ } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Team } from "@/components/team";
+import { Projects } from "@/components/projects";
 
 const Homepage = () => {
 	return (
@@ -16,6 +17,7 @@ const Homepage = () => {
 				<Hero />
 				{/* <ProductDemo /> */}
 				<Features />
+				<Projects />
 				<Testimonials />
 				<Team />
 				{/* <Pricing /> */}

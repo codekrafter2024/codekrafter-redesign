@@ -79,19 +79,19 @@ export const teamMembers = [
 		role: "Co-Founder",
 		image: "/team/shivansh.png",
 		socialLinks: {
-			twitter: "https://twitter.com/jane",
-			linkedin: "https://linkedin.com/in/",
-			github: "https://github.com/jane",
+			twitter: "https://x.com/Shivuuu777",
+			linkedin: "https://www.linkedin.com/in/shivansh-gangwar/",
+			github: "https://github.com/Shivanshcodekrafter",
 		},
 	},
 	{
 		name: "Jitendra",
 		role: "Co-Founder",
-		image: "/team/jitendra.png",
+		image: "/team/jitender.png",
 		socialLinks: {
 			twitter: "https://twitter.com/john",
-			linkedin: "https://linkedin.com/in/john",
-			github: "https://github.com/john",
+			linkedin: "https://www.linkedin.com/in/ohyajk/",
+			github: "https://github.com/ohyajk",
 		},
 	},
 	{
@@ -109,7 +109,7 @@ export const teamMembers = [
 		role: "Digital Marketer",
 		image: "/team/anubhav.png",
 		socialLinks: {
-			twitter: "https://twitter.com/john",
+			twitter: "https://x.com/anu",
 			linkedin: "https://linkedin.com/in/john",
 			github: "https://github.com/john",
 		},
@@ -163,5 +163,23 @@ export const reviews = [
 		username: "@godaltristan",
 		body: "Very very good work, I recommend without hesitation.",
 		img: "/testimonials/tristang.webp",
+	},
+];
+
+export const projects = [
+	{
+		name: "IH-SUK Tech",
+		image: "/projects/ihsuktech.png",
+		description: "A sleek landing page designed for Ihsuktech, a social media marketing agency based in Australia.",
+	},
+	{
+		name: "Masterclub",
+		image: "/projects/masterclub.png",
+		description: "Master Club is a program page created for a news agency based in France.",
+	},
+	{
+		name: "Onze Bis",
+		image: "/projects/onze-bis.png",
+		description: "Onze Bis is a program page created for a news agency based in France.",
 	},
 ];
