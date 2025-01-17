@@ -14,9 +14,9 @@ const FeaturesGrid = () => {
 					key={i}
 					title={item.title}
 					description={item.description}
-					header={item.header}
 					className={item.className}
 					icon={item.icon}
+					image={item.image}
 				/>
 			))}
 		</BentoGrid>
@@ -36,6 +36,7 @@ const items = [
 		header: <Skeleton />,
 		className: "md:col-span-2",
 		icon: <IconDirectionSign className='h-4 w-4 text-neutral-500' />,
+		image: "/features/graphic-design.png",
 	},
 	{
 		title: "Web Development",
@@ -43,6 +44,7 @@ const items = [
 		header: <Skeleton />,
 		className: "md:col-span-1",
 		icon: <IconFileBroken className='h-4 w-4 text-neutral-500' />,
+		image: "/features/web-dev.jpg",
 	},
 	{
 		title: "Mobile App Development",
@@ -50,6 +52,7 @@ const items = [
 		header: <Skeleton />,
 		className: "md:col-span-1",
 		icon: <IconSignature className='h-4 w-4 text-neutral-500' />,
+		image: "/features/app-dev.jpg",
 	},
 	{
 		title: "Content Creation",
@@ -58,5 +61,6 @@ const items = [
 		header: <Skeleton />,
 		className: "md:col-span-2",
 		icon: <IconTableColumn className='h-4 w-4 text-neutral-500' />,
+		image: "/features/digital-marketing.png",
 	},
 ];

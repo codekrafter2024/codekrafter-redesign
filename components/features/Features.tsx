@@ -3,7 +3,7 @@ import FeaturesGrid from "./FeaturesGrid";
 
 const Features = () => {
 	return (
-		<div className='max-w-7xl px-4 sm:px-6 lg:px-8 mt-40 mb-16 text-center lg:max-w-7xl mx-auto'>
+		<div className='max-w-7xl mt-40 mb-16 text-center lg:max-w-7xl mx-auto px-4 lg:px-0'>
 			<h2 className='text-3xl lg:text-4xl text-center font-bold  bg-gradient-to-r from-[#FF3CAC] via-text-sky-500 to-sky-400 inline-block text-transparent bg-clip-text '>
 				Services We Offer
 			</h2>
