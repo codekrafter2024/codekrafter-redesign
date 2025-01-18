@@ -88,10 +88,19 @@ const Team = () => {
 					exceptional results
 				</p>
 			</div>
-			<div className='mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3'>
-				{teamMembers.map((member, index) => (
-					<TeamMemberCard key={index} {...member} />
-				))}
+			<div className='mt-12 space-y-8'>
+				<div className='grid gap-8 sm:grid-cols-2 md:grid-cols-3'>
+					{teamMembers.slice(0, 3).map((member, index) => (
+						<TeamMemberCard key={index} {...member} />
+					))}
+				</div>
+				<div className='grid gap-8 sm:grid-cols-2 px-0 md:px-[20%]'>
+					{teamMembers
+						.slice(3, teamMembers.length)
+						.map((member, index) => (
+							<TeamMemberCard key={index} {...member} />
+						))}
+				</div>
 			</div>
 		</div>
 	);

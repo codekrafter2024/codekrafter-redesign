@@ -1,3 +1,4 @@
+import { calUrl } from "@/constants/data";
 import { ArrowRightIcon } from "lucide-react";
 import React from "react";
 
@@ -7,7 +8,7 @@ const CTA = () => {
 			<h2 className='font-bold md:text-[40px] text-[24px] text-black  dark:text-white'>
 				Contact Us
 			</h2>
-			<a target='_blank' href='/expert-systems'>
+			<a target='_blank' href={calUrl}>
 				<button
 					type='button'
 					className='flex flex-row items-center h-fit py-4 px-6 dark:bg-white bg-[#25618B] rounded-[32px] gap-[8px]'

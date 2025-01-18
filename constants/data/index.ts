@@ -114,17 +114,6 @@ export const teamMembers = [
 			github: "https://github.com/john",
 		},
 	},
-	{
-		name: "Jane Smith",
-		role: "CTO",
-		image: "https://avatar.vercel.sh/jane",
-		socialLinks: {
-			twitter: "https://twitter.com/jane",
-			linkedin: "https://linkedin.com/in/jane",
-			github: "https://github.com/jane",
-		},
-	},
-	// Add 4 more team members with similar structure
 ];
 
 export const reviews = [
@@ -170,16 +159,21 @@ export const projects = [
 	{
 		name: "IH-SUK Tech",
 		image: "/projects/ihsuktech.png",
-		description: "A sleek landing page designed for Ihsuktech, a social media marketing agency based in Australia.",
+		description:
+			"A sleek landing page designed for Ihsuktech, a social media marketing agency based in Australia.",
 	},
 	{
 		name: "Masterclub",
 		image: "/projects/masterclub.png",
-		description: "Master Club is a program page created for a news agency based in France.",
+		description:
+			"Master Club is a program page created for a news agency based in France.",
 	},
 	{
 		name: "Onze Bis",
 		image: "/projects/onze-bis.png",
-		description: "Onze Bis is a program page created for a news agency based in France.",
+		description:
+			"Onze Bis is a program page created for a news agency based in France.",
 	},
 ];
+
+export const calUrl = "/";
