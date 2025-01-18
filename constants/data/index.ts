@@ -174,6 +174,12 @@ export const projects = [
 		description:
 			"Onze Bis is a program page created for a news agency based in France.",
 	},
+	{
+		name: "Gram Circle",
+		image: "/projects/gramcircle.png",
+		description:
+			"GramCircle is an influencer playground for local: brands, creators & agencies.",
+	},
 ];
 
-export const calUrl = "/";
+export const calUrl = "https://calendly.com/krafterscode/30min";
