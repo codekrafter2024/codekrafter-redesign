@@ -99,9 +99,9 @@ export const teamMembers = [
 		role: "CTO",
 		image: "/team/shriansh.png",
 		socialLinks: {
-			twitter: "https://twitter.com/jane",
-			linkedin: "https://linkedin.com/in/jane",
-			github: "https://github.com/jane",
+			twitter: "https://twitter.com/shrianshAgarwal",
+			linkedin: "https://linkedin.com/in/shriansh-agarwal",
+			github: "https://github.com/shriansh2002",
 		},
 	},
 	{
