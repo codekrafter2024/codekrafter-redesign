@@ -39,13 +39,15 @@ const items = [
 		image: "/features/graphic-design.png",
 	},
 	{
-		title: "Web Development",
-		description: "We build responsive and user-friendly websites.",
+		title: "Content Creation",
+		description:
+			"We create engaging and informative content for your brand.",
 		header: <Skeleton />,
 		className: "md:col-span-1",
-		icon: <IconFileBroken className='h-4 w-4 text-neutral-500' />,
-		image: "/features/web-dev.jpg",
+		icon: <IconTableColumn className='h-4 w-4 text-neutral-500' />,
+		image: "/features/digital-marketing.png",
 	},
+
 	{
 		title: "Mobile App Development",
 		description: "We develop mobile apps for iOS and Android platforms.",
@@ -55,12 +57,11 @@ const items = [
 		image: "/features/app-dev.jpg",
 	},
 	{
-		title: "Content Creation",
-		description:
-			"We create engaging and informative content for your brand.",
+		title: "Web Development",
+		description: "We build responsive and user-friendly websites.",
 		header: <Skeleton />,
 		className: "md:col-span-2",
-		icon: <IconTableColumn className='h-4 w-4 text-neutral-500' />,
-		image: "/features/digital-marketing.png",
+		icon: <IconFileBroken className='h-4 w-4 text-neutral-500' />,
+		image: "/features/web-dev.jpg",
 	},
 ];

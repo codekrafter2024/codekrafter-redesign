@@ -1,8 +1,7 @@
 import { teamMembers } from "@/constants/data";
-import { cn } from "@/lib/utils";
-import { Twitter, Linkedin, Github } from "lucide-react";
+import TeamMemberCard from "./team-member-card";
 
-interface TeamMemberProps {
+export interface TeamMemberProps {
 	name: string;
 	role: string;
 	image: string;
@@ -12,69 +11,6 @@ interface TeamMemberProps {
 		github: string;
 	};
 }
-
-const TeamMemberCard = ({
-	name,
-	role,
-	image,
-	socialLinks,
-}: TeamMemberProps) => {
-	return (
-		<div
-			className={cn(
-				"relative group overflow-hidden rounded-xl border p-6 text-center",
-				"border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-				"dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
-			)}
-		>
-			<div className='flex flex-col items-center'>
-				<img
-					src={image}
-					alt={name}
-					className='w-32 h-32 rounded-full mb-4 object-cover'
-				/>
-				<h3 className='text-lg font-semibold text-black dark:text-white'>
-					{name}
-				</h3>
-				<p className='text-sm text-black/60 dark:text-white/60 mb-4'>
-					{role}
-				</p>
-
-				<div className='flex space-x-4'>
-					<SocialLink
-						href={socialLinks.twitter}
-						icon={<Twitter className='w-5 h-5' />}
-					/>
-					<SocialLink
-						href={socialLinks.linkedin}
-						icon={<Linkedin className='w-5 h-5' />}
-					/>
-					<SocialLink
-						href={socialLinks.github}
-						icon={<Github className='w-5 h-5' />}
-					/>
-				</div>
-			</div>
-		</div>
-	);
-};
-
-const SocialLink = ({
-	href,
-	icon,
-}: {
-	href: string;
-	icon: React.ReactNode;
-}) => (
-	<a
-		href={href}
-		target='_blank'
-		rel='noopener noreferrer'
-		className='text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white transition-colors'
-	>
-		{icon}
-	</a>
-);
 
 const Team = () => {
 	return (
@@ -88,10 +24,19 @@ const Team = () => {
 					exceptional results
 				</p>
 			</div>
-			<div className='mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3'>
-				{teamMembers.map((member, index) => (
-					<TeamMemberCard key={index} {...member} />
-				))}
+			<div className='mt-12 space-y-8'>
+				<div className='grid gap-8 sm:grid-cols-2 md:grid-cols-3'>
+					{teamMembers.slice(0, 3).map((member, index) => (
+						<TeamMemberCard key={index} {...member} />
+					))}
+				</div>
+				<div className='grid gap-8 sm:grid-cols-2 px-0 md:px-[20%]'>
+					{teamMembers
+						.slice(3, teamMembers.length)
+						.map((member, index) => (
+							<TeamMemberCard key={index} {...member} />
+						))}
+				</div>
 			</div>
 		</div>
 	);
