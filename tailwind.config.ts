@@ -56,8 +56,13 @@ export default {
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
 				text: "text 5s ease infinite",
+				pulse: "pulse var(--duration) ease-out infinite",
 			},
 			keyframes: {
+				pulse: {
+					"0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+					"50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
+				},
 				text: {
 					"0%, 100%": {
 						"background-size": "200% 200%",

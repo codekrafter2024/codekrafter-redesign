@@ -1,15 +1,16 @@
 import HeroBadge from "./hero-badge";
 import { getDescription, getTitle } from "@/lib/parseHeroHtml";
 import RainbowButton from "../ui/rainbow-button";
+import Image from "next/image";
 
 const Hero = () => {
 	const title = getTitle();
 	const description = getDescription();
 
 	return (
-		<section className='py-24'>
-			<div className='px-4 mx-auto sm:px-6 lg:px-8 md:py-0'>
-				<div className='mx-auto text-center lg:items-center '>
+		<section className='py-12 md:py-24 relative'>
+			<div className='px-4 mx-auto sm:px-6 lg:px-8 md:py-0 '>
+				<div className='mx-auto text-center lg:items-center'>
 					<div className='text-center  flex flex-col items-center justify-center '>
 						<HeroBadge />
 						<div>
@@ -22,9 +23,23 @@ const Hero = () => {
 							<p className='lg:text-lg text-sm max-w-sm lg:max-w-xl break-words mt-5 text-black/60 dark:text-white/60 my-8 mx-auto'>
 								{description}
 							</p>
-							<RainbowButton />
+							<div className='hidden md:block'>
+								<RainbowButton />
+							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div className='flex flex-col items-center justify-center mt-2 space-y-4'>
+				<Image
+					src='./hero/illustration.svg'
+					alt='Hero illustration'
+					width={300}
+					height={300}
+					className='md:absolute md:right-0 md:bottom-0'
+				/>
+				<div className='block md:hidden'>
+					<RainbowButton />
 				</div>
 			</div>
 		</section>
