@@ -1,6 +1,6 @@
 import HeroBadge from "./hero-badge";
-// import HeroButton from "./hero-button";
 import { getDescription, getTitle } from "@/lib/parseHeroHtml";
+import RainbowButton from "../ui/rainbow-button";
 
 const Hero = () => {
 	const title = getTitle();
@@ -22,7 +22,7 @@ const Hero = () => {
 							<p className='lg:text-lg text-sm max-w-sm lg:max-w-xl break-words mt-5 text-black/60 dark:text-white/60 my-8 mx-auto'>
 								{description}
 							</p>
-							{/* <HeroButton /> */}
+							<RainbowButton />
 						</div>
 					</div>
 				</div>
