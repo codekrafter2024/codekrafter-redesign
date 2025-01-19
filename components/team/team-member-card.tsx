@@ -18,11 +18,13 @@ const TeamMemberCard = ({
 			)}
 		>
 			<div className='flex flex-col items-center'>
-				<img
-					src={image}
-					alt={name}
-					className='w-32 h-32 rounded-full mb-4 object-cover'
-				/>
+				<div className='bg-white/50 rounded-full h-32 w-32'>
+					<img
+						src={image}
+						alt={name}
+						className='w-32 h-32 rounded-full mb-4 object-cover'
+					/>
+				</div>
 				<h3 className='text-lg font-semibold text-black dark:text-white'>
 					{name}
 				</h3>

@@ -8,7 +8,7 @@ const Hero = () => {
 
 	return (
 		<section className='py-24'>
-			<div className='px-4 mx-auto sm:px-6 lg:px-8'>
+			<div className='px-4 mx-auto sm:px-6 lg:px-8 md:py-0'>
 				<div className='mx-auto text-center lg:items-center '>
 					<div className='text-center  flex flex-col items-center justify-center '>
 						<HeroBadge />
