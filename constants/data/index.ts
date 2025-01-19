@@ -183,3 +183,7 @@ export const projects = [
 ];
 
 export const calUrl = "https://calendly.com/krafterscode/30min";
+export const companySocialLinks = {
+	twitter: "https://twitter.com/CodeKrafter",
+	linkedin: "https://www.linkedin.com/company/codekrafter/",
+};
