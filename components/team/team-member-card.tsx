@@ -1,8 +1,8 @@
-import { cn } from "@/lib/utils";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { TeamMemberProps } from "./Team";
 import SocialLink from "./social-link";
 import Image from "next/image";
+import { MagicCard } from "../ui/magic-card";
 
 const TeamMemberCard = ({
 	name,
@@ -11,12 +11,9 @@ const TeamMemberCard = ({
 	socialLinks,
 }: TeamMemberProps) => {
 	return (
-		<div
-			className={cn(
-				"relative group overflow-hidden rounded-xl border p-6 text-center",
-				"border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-				"dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
-			)}
+		<MagicCard
+			className='cursor-pointer flex-col whitespace-nowrap text-4xl shadow-2xl w-full overflow-hidden p-6 text-center'
+			gradientColor={"#262626"}
 		>
 			<div className='flex flex-col items-center'>
 				<div className='bg-white/50 rounded-full h-32 w-32'>
@@ -44,13 +41,15 @@ const TeamMemberCard = ({
 						href={socialLinks.linkedin}
 						icon={<Linkedin className='w-5 h-5' />}
 					/>
-					<SocialLink
-						href={socialLinks.github}
-						icon={<Github className='w-5 h-5' />}
-					/>
+					{socialLinks.github && (
+						<SocialLink
+							href={socialLinks.github}
+							icon={<Github className='w-5 h-5' />}
+						/>
+					)}
 				</div>
 			</div>
-		</div>
+		</MagicCard>
 	);
 };
 
