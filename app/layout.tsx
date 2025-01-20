@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const font = Poppins({
 	subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
 			>
 				{children}
 			</body>
+			<GoogleAnalytics gaId='GTM-KJFXJ578' />
 		</html>
 	);
 }
