@@ -161,28 +161,28 @@ export const projects = [
 		image: "/projects/ihsuktech.png",
 		description:
 			"A sleek landing page designed for Ihsuktech, a social media marketing agency based in Australia.",
-		url: "",
+		url: "https://ihsuktech.vercel.app/",
 	},
 	{
 		name: "Masterclub",
 		image: "/projects/masterclub.png",
 		description:
 			"Master Club is a program page created for a news agency based in France.",
-		url: "",
+		url: "https://66f8d207cde35bb9dfbbc593--stupendous-yeot-b38776.netlify.app/",
 	},
 	{
 		name: "Onze Bis",
 		image: "/projects/onze-bis.png",
 		description:
 			"Onze Bis is a program page created for a news agency based in France.",
-		url: "",
+		url: "https://fluffy-treacle-0ade67.netlify.app/",
 	},
 	{
 		name: "Gram Circle",
 		image: "/projects/gramcircle.png",
 		description:
 			"GramCircle is an influencer playground for local: brands, creators & agencies.",
-		url: "",
+		url: "https://jocular-rolypoly-8ad83c.netlify.app/",
 	},
 ];
 
