@@ -8,7 +8,7 @@ export interface TeamMemberProps {
 	socialLinks: {
 		twitter: string;
 		linkedin: string;
-		github: string;
+		github?: string;
 	};
 }
 
