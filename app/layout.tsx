@@ -47,6 +47,7 @@ export const metadata: Metadata = {
 		type: "website",
 		url: "https://codekrafter.xyz",
 		locale: "en_US",
+		siteName: "CodeKrafter",
 	},
 };
 
