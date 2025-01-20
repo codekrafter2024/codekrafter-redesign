@@ -39,9 +39,9 @@ const items = [
 		image: "/features/graphic-design.png",
 	},
 	{
-		title: "Content Creation",
+		title: "Digital Marketing",
 		description:
-			"We create engaging and informative content for your brand.",
+			"We help you reach your target audience and drive conversions through strategic digital marketing campaigns.",
 		header: <Skeleton />,
 		className: "md:col-span-1",
 		icon: <IconTableColumn className='h-4 w-4 text-neutral-500' />,
@@ -50,7 +50,7 @@ const items = [
 
 	{
 		title: "Mobile App Development",
-		description: "We develop mobile apps for iOS and Android platforms.",
+		description: "We build cross-platform mobile applications that are fast, secure, and scalable.",
 		header: <Skeleton />,
 		className: "md:col-span-1",
 		icon: <IconSignature className='h-4 w-4 text-neutral-500' />,
@@ -58,7 +58,7 @@ const items = [
 	},
 	{
 		title: "Web Development",
-		description: "We build responsive and user-friendly websites.",
+		description: "We build responsive websites that are optimized for performance and user experience.",
 		header: <Skeleton />,
 		className: "md:col-span-2",
 		icon: <IconFileBroken className='h-4 w-4 text-neutral-500' />,
