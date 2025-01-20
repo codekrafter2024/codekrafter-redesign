@@ -9,7 +9,45 @@ const font = Poppins({
 
 export const metadata: Metadata = {
 	title: "CodeKrafter",
-	description: "IT Solutions",
+	description:
+		"CodeKrafter is a one stop solution for all your IT needs and services.",
+	keywords: [
+		"CodeKrafter",
+		"CodeKrafter.xyz",
+		"Digital Agency",
+		"Digital Agency in India",
+		"Digital Agency Near me",
+		"Digital Agency in Delhi",
+		"Digital Agency in Uttar Pradesh",
+		"IT Solutions",
+		"Web Development",
+		"Software Development",
+		"Mobile App Development",
+		"SEO",
+		"Digital Marketing",
+		"Social Media Marketing",
+		"Content Writing",
+		"Graphic Designing",
+		"Logo Designing",
+		"Web Designing",
+		"Web Development Company",
+		"Software Development Company",
+		"Mobile App Development Company",
+		"SEO Company",
+		"Digital Marketing Company",
+		"Social Media Marketing Company",
+		"Content Writing Company",
+		"Graphic Designing Company",
+		"Logo Designing Company",
+	],
+	openGraph: {
+		title: "CodeKrafter",
+		description:
+			"CodeKrafter is a one stop solution for all your IT needs and services.",
+		type: "website",
+		url: "https://codekrafter.xyz",
+		locale: "en_US",
+	},
 };
 
 export default function RootLayout({
