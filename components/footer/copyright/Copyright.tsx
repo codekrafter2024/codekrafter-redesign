@@ -25,7 +25,7 @@ const Copyright = () => {
 				<p className='font-medium  text-[14px] text-black dark:text-white  opacity-100 dark:opacity-50'>
 					Copyright &copy; 2025 CodeKrafter. All rights reserved.
 				</p>
-				<div className='flex dark:hidden gap-4'>
+				{/* <div className='flex dark:hidden gap-4'>
 					<a target='_blank' href='https://www.instagram.com/'>
 						<img
 							alt='Instagram'
@@ -68,7 +68,7 @@ const Copyright = () => {
 							src='/lightInsta.svg'
 						/>
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

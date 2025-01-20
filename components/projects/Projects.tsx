@@ -12,7 +12,7 @@ const Projects = () => {
 				interfaces, and tailored solutions for clients.
 			</p>
 			<div className='max-w-6xl container mx-auto'>
-				<div className='grid grid-cols-1 md:grid-cols-2 lg:px-0 gap-y-12'>
+				<div className='grid grid-cols-1 lg:grid-cols-2 lg:px-0 gap-y-12'>
 					{projects.map((project) => (
 						<ProjectCard key={project.name} {...project} />
 					))}
