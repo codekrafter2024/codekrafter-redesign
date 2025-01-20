@@ -106,12 +106,11 @@ export const teamMembers = [
 	},
 	{
 		name: "Anubhav",
-		role: "Digital Marketer",
+		role: "HR & Marketing",
 		image: "/team/anubhav.png",
 		socialLinks: {
 			twitter: "https://x.com/anu",
 			linkedin: "https://linkedin.com/in/john",
-			github: "https://github.com/john",
 		},
 	},
 ];
