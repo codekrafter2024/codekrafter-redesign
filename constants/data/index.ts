@@ -161,24 +161,28 @@ export const projects = [
 		image: "/projects/ihsuktech.png",
 		description:
 			"A sleek landing page designed for Ihsuktech, a social media marketing agency based in Australia.",
+		url: "",
 	},
 	{
 		name: "Masterclub",
 		image: "/projects/masterclub.png",
 		description:
 			"Master Club is a program page created for a news agency based in France.",
+		url: "",
 	},
 	{
 		name: "Onze Bis",
 		image: "/projects/onze-bis.png",
 		description:
 			"Onze Bis is a program page created for a news agency based in France.",
+		url: "",
 	},
 	{
 		name: "Gram Circle",
 		image: "/projects/gramcircle.png",
 		description:
 			"GramCircle is an influencer playground for local: brands, creators & agencies.",
+		url: "",
 	},
 ];
 
