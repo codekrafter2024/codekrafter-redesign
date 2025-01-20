@@ -1,7 +1,7 @@
 import HeroBadge from "./hero-badge";
 import { getDescription, getTitle } from "@/lib/parseHeroHtml";
 import RainbowButton from "../ui/rainbow-button";
-import { Vortex } from "../ui/vortex";
+import Vortex from "../ui/vortex";
 
 const Hero = () => {
 	const title = getTitle();

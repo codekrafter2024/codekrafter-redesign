@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { TeamMemberProps } from "./Team";
 import SocialLink from "./social-link";
+import Image from "next/image";
 
 const TeamMemberCard = ({
 	name,
@@ -19,10 +20,12 @@ const TeamMemberCard = ({
 		>
 			<div className='flex flex-col items-center'>
 				<div className='bg-white/50 rounded-full h-32 w-32'>
-					<img
+					<Image
 						src={image}
 						alt={name}
 						className='w-32 h-32 rounded-full mb-4 object-cover'
+						width={128}
+						height={128}
 					/>
 				</div>
 				<h3 className='text-lg font-semibold text-black dark:text-white'>
