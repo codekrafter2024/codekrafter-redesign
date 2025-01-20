@@ -8,7 +8,7 @@ import { Projects } from "@/components/projects";
 
 const Homepage = () => {
 	return (
-		<>
+		<div className='bg-black'>
 			<Navbar />
 			<main className='mx-auto relative max-w-7xl'>
 				<Hero />
@@ -18,7 +18,7 @@ const Homepage = () => {
 				<Team />
 			</main>
 			<Footer />
-		</>
+		</div>
 	);
 };
 
