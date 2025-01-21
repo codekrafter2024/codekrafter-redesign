@@ -85,7 +85,7 @@ export const teamMembers = [
 		},
 	},
 	{
-		name: "Jitendra",
+		name: "Jitender",
 		role: "Co-Founder",
 		image: "/team/jitender.png",
 		socialLinks: {
