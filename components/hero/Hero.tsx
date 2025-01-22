@@ -8,7 +8,7 @@ const Hero = () => {
 	const description = getDescription();
 
 	return (
-		<section className='relative'>
+		<section className='relative overflow-hidden'>
 			<Vortex
 				backgroundColor='#000000'
 				className='flex items-center flex-col justify-center px-2 md:px-10 w-full h-full py-12 md:py-24'
