@@ -60,11 +60,11 @@ export default function RootLayout({
 	return (
 		<html lang='en' className='dark' data-theme='dark'>
 			<body
-				className={`${font.className} antialiased  bg-gray-100  transition-all  duration-200 dark:bg-[#10100f] relative dark:text-white text-black overflow-x-hidden`}
+				className={`${font.className} antialiased  bg-gray-100  transition-all  duration-200 dark:bg-[#10100f] relative dark:text-white text-black`}
 			>
 				{children}
 			</body>
-			<GoogleAnalytics gaId='G-4PQVY4XES7' />
+			<GoogleAnalytics gaId='G-7CYF458LNH' />
 		</html>
 	);
 }
