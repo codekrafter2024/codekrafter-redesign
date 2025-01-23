@@ -11,7 +11,7 @@ const Hero = () => {
 		<section className='relative'>
 			<Vortex
 				backgroundColor='#000000'
-				className='flex items-center flex-col justify-center px-2 md:px-10 w-full h-full py-12 md:py-24'
+				className='flex items-center flex-col justify-center px-2 md:px-10 py-12 md:py-24'
 			>
 				<div className='px-4 mx-auto sm:px-6 lg:px-8 md:py-0 '>
 					<div className='mx-auto text-center lg:items-center'>
