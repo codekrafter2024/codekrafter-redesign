@@ -163,6 +163,13 @@ export const projects = [
 		url: "https://www.elyxm.com/en",
 	},
 	{
+		name: "Mr Mehar School of Driving",
+		image: "/projects/driving-school.avif",
+		description:
+			"Mr Mehar School of Driving is a driving school based in Australia. We created a landing page for them.",
+		url: "https://mrmeharschoolofdriving.com.au",
+	},
+	{
 		name: "IH-SUK Tech",
 		image: "/projects/ihsuktech.png",
 		description:

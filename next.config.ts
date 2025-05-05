@@ -4,14 +4,9 @@ const nextConfig: NextConfig = {
 	images: {
 		remotePatterns: [
 			{
-				hostname: "images.unsplash.com",
+				hostname: "*",
 			},
-			{
-				hostname: "avatar.vercel.sh",
-			},
-			{
-				hostname: "www.elyxm.com",
-			},
+
 		],
 	},
 };
