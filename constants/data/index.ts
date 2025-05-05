@@ -156,6 +156,13 @@ export const reviews = [
 
 export const projects = [
 	{
+		name: "ELYXM",
+		image: "https://www.elyxm.com/smart-sips/machine-on-bar.webp",
+		description:
+			"From the first sip to the final drop, Elyxm sets the standard for what a cocktail experience should be—Expertly Crafted and Flawlessly Poured.",
+		url: "https://www.elyxm.com/en",
+	},
+	{
 		name: "IH-SUK Tech",
 		image: "/projects/ihsuktech.png",
 		description:
