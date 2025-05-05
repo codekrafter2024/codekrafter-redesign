@@ -1,0 +1,10 @@
+# robots.txt for codekrafter.xyz
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://codekrafter.xyz/sitemap.xml
+
+# Crawl-delay for heavy resources
+User-agent: *
+Crawl-delay: 1
